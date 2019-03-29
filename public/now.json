@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "alias": "mehulpatel118-bookmarks-app",
+  "name": "project-brief",
+  "routes": [
+      {
+        "src": "^/static/(.*)",
+        "dest": "/static/$1"
+      },
+      {
+        "src": ".*",
+        "dest": "/index.html"
+      }
+  ]
+}
